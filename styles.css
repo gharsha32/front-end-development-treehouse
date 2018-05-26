@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -71,19 +71,19 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
-.tag {
-  background-color: #efefef;
+.tag-name {
+  background-color: red;
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
-.location {
-  background-color: #222;
-  color: yellow;
+}
+.tag-location {
+  background-color: white;
+  color: black;
 }
 .card {
   margin: 30px;
@@ -151,6 +151,9 @@ a.social {
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+a.facebook {
+  background-image: url(images/facebook.svg);
+}
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -166,7 +169,7 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: flex;
       max-width: 1200px;
@@ -203,4 +206,3 @@ a.social:hover {
   }
 
 }
-
