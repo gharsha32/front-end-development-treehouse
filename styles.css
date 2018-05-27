@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #800000	;
-  background: #f7f5f0;
+  background: white;
 }
 /* Link Styles */
 
@@ -18,7 +18,7 @@ a {
   color: #0499ff;
 }
 a:hover {
-  color: #6633ff;
+  color: purple;
 }
 
 /* Section Styles */
@@ -204,5 +204,22 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+}
+
+h3 {
+  color: orange;
+  padding: 0 auto;
+  margin: 20 px;
+  background-color: red;
+  letter-spacing: 2px;
+
+
+}
+
+.card-title {
+          color: "orange";
+          text-align: "center";
+          letter-spacing: "55px";
 
 }
