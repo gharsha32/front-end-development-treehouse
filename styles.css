@@ -217,9 +217,10 @@ h3 {
 
 }
 
-.card-title {
-          color: "orange";
-          text-align: "center";
-          letter-spacing: "55px";
+. card-title {
+              color: "orange";
+              text-align: "center";
+              letter-spacing: "55px";
+              border: solid;
 
 }
