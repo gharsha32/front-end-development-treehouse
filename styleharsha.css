@@ -1,14 +1,37 @@
+/*body*/
+body{
+    background-color: gray;
+}
+
+/*image*/
+.Harsha.jpg {
+          border: solid;
+          border-radius: 50%;
+
+}
 /*heading*/
 h1 {
   color: #008000;
   background-color: white;
   text-align: center;
+  font-size: 3em;
+  background-color:gray;
+  text-decoration: underline dotted;
 }
 
- .unordered-list {
-                    text-align: center;
+/*list items*/
+.unordered-list {
+              text-align: center;
+              font-size: 6em;
+              margin: 2em;
  }
 
-.paragraph {
-              text-align: center;
+ /*about*/
+.division-paragraph {
+                  text-align: center;
+}
+
+/*contact*/
+.contact-me {
+          font-size: 54em;
 }
