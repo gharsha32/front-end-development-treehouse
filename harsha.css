@@ -1,0 +1,11 @@
+?/*heading*/
+h1 {
+    color: white;
+    text-decoration: underline;
+}
+/*image*/
+.harsha-jpg {
+              border: solid black 4px;
+              width: 200px;
+              height: 200px;
+              border-radius: 50%
